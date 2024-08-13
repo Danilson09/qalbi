@@ -1,0 +1,55 @@
+body {
+    background-color: #FADADD; /* Baby pink color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery img {
+    cursor: pointer;
+}
+#video-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 560px; /* Adjust as needed */
+    height: 315px; /* Adjust as needed */
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+.poem-card {
+            padding: 50px;
+            margin: 50px auto;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .poem-card .card-title {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .poem-card .card-text {
+            font-size: 1.5em;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        /* Default card style (for any other cards) */
+        .card {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);}
+
+
+            .gallery img {
+                width: 100%; /* Makes the image take the full width of its container */
+                height: 200px; /* Sets a fixed height for the images */
+                object-fit: cover; /* Ensures the images are resized to cover the container while maintaining aspect ratio */
+                border-radius: 10px; /* Optional: adds rounded corners to images */
+            }
